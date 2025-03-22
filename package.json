@@ -1,0 +1,16 @@
+{
+  "name": "database-server",
+  "version": "1.0.0",
+  "description": "A server for handling database operations for the TaskForceMining bot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.11.0"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}
